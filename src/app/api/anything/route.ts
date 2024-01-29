@@ -15,9 +15,7 @@ export async function GET() {
   });
 
   const page = await browser.newPage();
-  await page.goto(
-    "https://food.grab.com/id/id/cuisines/aneka-nasi-delivery/144"
-  );
+  await page.goto("https://linkedin.com/");
   const pageTitle = await page.title();
   await browser.close();
 
